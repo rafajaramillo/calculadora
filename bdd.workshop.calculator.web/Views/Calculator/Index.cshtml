@@ -1,0 +1,60 @@
+﻿@model bdd.workshop.calculator.web.Models.Calculator
+
+@{ 
+
+    ViewBag.Title = "Calculate!";
+}
+
+<h2>Do an Operation</h2>
+@using (Html.BeginForm("Operate","Calculator"))
+            {
+<fieldset>
+    @* <legend>Calculator</legend>
+
+    <div class="editor-field">
+        First Number: @Html.TextBoxFor(model => model.A);
+    </div>
+    <div class="editor-field">
+        Operator:@Html.TextBoxFor(model => model.Command);
+    </div>
+    <div class="editor-field">
+        Second Number: @Html.TextBoxFor(model => model.B);
+    </div> *@
+
+     
+    @{  
+        ViewBag.Title = "Calculate";  
+    }   
+    <style> td, th   
+    {  
+        padding: 10 px;  
+    }   
+    </style>  
+    <div align="center">  
+        @using (Html.BeginForm()) {  
+        <table>  
+            <tr>                  
+                        <td> <input type="text" id="txtNumber" name="txtNumber" class="form-control" /> </td>
+            </tr>
+            <tr>
+
+            </tr>
+                    <tr>
+                        <th><input type="button" id="s13" name="s13" value="7" class="btn btn-primary" /> <input type="button" id="s14" name="s14" value="8" class="btn btn-primary" /> <input type="button" id="s15" name="s15" value="9" class="btn btn-primary" /> <input type="button" id="s16" name="s16" value="x" class="btn btn-primary" /></th>
+                    </tr>                        
+                    <tr>
+                        <th><input type="button" id="s9" name="s9" value="4" class="btn btn-primary" /> <input type="button" id="s10" name="s10" value="5" class="btn btn-primary" /> <input type="button" id="s11" name="s11" value="6" class="btn btn-primary" /> <input type="button" id="s12" name="s12" value="-" class="btn btn-primary" /></th>
+                    </tr>                      
+                    <tr>
+                        <th><input type="button" id="s5" name="s5" value="1" class="btn btn-primary" /> <input type="button" id="s6" name="s6" value="2" class="btn btn-primary" /> <input type="button" id="s7" name="s7" value="3" class="btn btn-primary" /> <input type="button" id="s8" name="s8" value="+" class="btn btn-primary" /></th>
+                    </tr>             
+                    <tr>
+                        <th><input type="button" id="s1" name="s1" value="0" class="btn btn-primary" /> <input type="button" id="s2" name="s2" value="/" class="btn btn-primary" /> <input type="button" id="s3" name="s3" value="√" class="btn btn-primary" /> <input type="button" id="s4" name="s4" value="=" class="btn btn-primary" /></th>
+                    </tr>                            
+        </table> } </div>  
+
+
+
+</fieldset>
+    <input type="submit" value="Do The operation" />
+            }

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\bdd.workshop.calculator.web.props" />
+</Project>

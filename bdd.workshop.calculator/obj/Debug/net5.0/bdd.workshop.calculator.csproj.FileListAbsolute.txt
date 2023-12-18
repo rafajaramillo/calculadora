@@ -1,0 +1,12 @@
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\bin\Debug\net5.0\bdd.workshop.calculator.deps.json
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\bin\Debug\net5.0\bdd.workshop.calculator.dll
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\bin\Debug\net5.0\bdd.workshop.calculator.pdb
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.AssemblyInfoInputs.cache
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.AssemblyInfo.cs
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.csproj.CoreCompileInputs.cache
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.sourcelink.json
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.dll
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\refint\bdd.workshop.calculator.dll
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\bdd.workshop.calculator.pdb
+C:\Users\SAM\source\repos\calculadora\bdd.workshop.calculator\obj\Debug\net5.0\ref\bdd.workshop.calculator.dll
